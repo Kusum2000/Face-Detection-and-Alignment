@@ -1,10 +1,19 @@
-# Face-Recognition-and-Alignment
+# Face Detection and Alignment
 
-Multiple face detection from a single image using mtcnn and alignment of each detected face using a modified version of HOG Face alignment.
+Detect multiple faces from a single image using mtcnn and alignment of each detected face using a modified version of HOG Face alignment.
 
-The code is free to be used and modified based on your needs.
+Multi-task Cascaded Convolutional Networks (MTCNN) is a framework developed for face detection and face alignment. It has a higher accuracy in detecting faces in various settings compared to HOG and other algorithms. It detects landmark locations such as eyes, nose, mouth and the bounded box of the faces in the image.
 
-##Features
+## Features
 
--Customize desired output image width and height
--Customize the required box size for the aligned image
+- Detect multiple faces in any direction, clarity and environment
+- Customize the desired output image width and height
+- Customize the required box size for the aligned image
+
+## Requirements
+
+- mtcnn
+- cv2
+- pyplot
+- numpy
+- imutils
