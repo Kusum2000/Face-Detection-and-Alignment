@@ -12,6 +12,7 @@ Multi-task Cascaded Convolutional Networks (MTCNN) is a framework developed for 
 
 ## Requirements
 
+- tensorflow
 - mtcnn
 - cv2
 - pyplot
